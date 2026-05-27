@@ -403,7 +403,7 @@ window.setInterval("heartBeat()",1);
             <li class="attract1">公司名称：</li>
             <li class="attract2">山东新士际医疗科技有限公司/天水市中医药保健研究所</li>
             <li class="attract3">在线咨询：</li>
-            <li class="attract4"><a href="http://wpa.qq.com/msgrd?v=3&uin=2872237304&site=qq&menu=yes" target="blank"><img alt="我现在不在，有事点这里" src="https://img.bjp321.com/vip/miaotai/pa.gif" border="0" /></a></li>
+            <li class="attract4"><a href="http://wpa.qq.com/msgrd?v=3&uin=2872237304&site=qq&menu=yes" target="blank"><img alt="山东新士际医疗科技有限公司客服在线咨询" src="https://img.bjp321.com/vip/miaotai/pa.gif" border="0" /></a></li>
             <li class="attract5">联&nbsp; 系&nbsp; 人：</li>
             <li class="attract6">何经理,刘经理</li>
             <li class="attract7">手   &nbsp;&nbsp;&nbsp;&nbsp; 机：</li>
@@ -441,6 +441,56 @@ window.setInterval("heartBeat()",1);
 <map name="Map2" id="Map2">
     <area shape="rect" coords="930,34,1252,313" href="https://www.qxw18.com/zhaoshang/show-200034.html" target="_blank" />
 </map>
+
+<!-- ===== 右下角浮动在线咨询 ===== -->
+<style>
+#float-kefu {
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+    z-index: 9999;
+    cursor: pointer;
+}
+#float-kefu .kefu-btn {
+    display: block;
+    width: 52px;
+    height: 130px;
+    background: #0066b5;
+    border-radius: 6px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    line-height: 1.4;
+    padding-top: 16px;
+    box-shadow: 0 2px 12px rgba(0,102,181,0.35);
+    transition: transform 0.2s;
+    writing-mode: vertical-lr;
+}
+#float-kefu .kefu-btn:hover {
+    transform: scale(1.05);
+    background: #005299;
+}
+#float-kefu .kefu-close {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    background: #999;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+</style>
+<div id="float-kefu">
+    <span class="kefu-close" onclick="document.getElementById('float-kefu').style.display='none'">&times;</span>
+    <a class="kefu-btn" href="http://wpa.qq.com/msgrd?v=3&uin=2872237304&site=qq&menu=yes" target="_blank">在线咨询</a>
+</div>
 
 <!-- ===== 百度统计 ===== -->
 <script>
